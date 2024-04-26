@@ -1,20 +1,9 @@
-console.log([]);
 
-const arrNums1 = [4,5,6];
+const colors = ['red','white','pink','aqua'];
 
-console.log('length', arrNums1.unshift(7));
-console.log(arrNums1.shift());
-console.log(arrNums1);
+colors.splice(2, 0, 'green');
+colors.splice(4, 1, 'blue');
+colors.splice(1, 0, 'mangeta, green');
+colors.splice()
 
-//
-const dayWeeks = ['sun' ,'mon','tue','wen','thu','fri','sat'];
-
-console.log(dayWeeks.pop());
-console.log(dayWeeks.pop());
-console.log(dayWeeks.pop());
-console.log(dayWeeks.unshift('sun' ,'mon','tue','wen','thu','fri','sat'));
-console.log(dayWeeks.unshift('sun' ,'mon','tue','wen','thu','fri','sat'));
-console.log(dayWeeks.push('fri'));
-console.log(dayWeeks.shift());
-
-console.log(dayWeeks);
+console.log(colors)
